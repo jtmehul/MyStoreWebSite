@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 50.544 s <<< FAILURE! - in TestSuite
+testCases.TC_001.testCase001  Time elapsed: 12.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [Product successfully added to your shopping cart]
+	at testCases.TC_001.testCase001(TC_001.java:69)
+
+testCases.TC_003.testTitle  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [My Store..] but found [My Store]
+	at testCases.TC_003.testTitle(TC_003.java:28)
+
